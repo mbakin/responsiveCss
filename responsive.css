@@ -1,0 +1,441 @@
+/* font-family: 'Raleway', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background:url("images/dark_tint.png"),url("images/bokeh_car_lights_bg.jpg");
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    align-self: flex-start;
+}
+header h1{
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 30px;
+    top: 30px;
+    color: antiquewhite;
+    font-weight: 900;
+    float: left;
+}
+header nav.menu ul{
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 20px;
+}
+header nav.menu ul li{
+    display: block;
+    padding: 30px;
+    float: left;
+}
+header nav.menu ul li a{
+    font-size: 18px;text-decoration: none;
+    color: white;
+    font-weight: 150;
+}
+header nav.menu ul li a:hover{
+    color: #CB997E;
+    transition: color 0.33s ease-in-out;
+}
+h2.subtitle{
+    color: #38b98e;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.banner .text p{
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+
+}
+.button a{
+    text-decoration: none;
+    font-size: 1em;
+    color: whitesmoke;
+    padding: 15px 40px;
+    background: #71bd88;
+    border-radius: 30px;
+}
+.button a:hover{
+    background: #71bd68;
+    transition: background-color 0.33s ease-in-out;
+}
+section.part1{
+    width: 100%;
+    background: rgb(219, 218, 218);
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.part1 h2{
+    color: #474747;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+.part1 h2 +p{
+    color: #858585;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.part1 .box{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+.part1 .box:nth-last-child(1){
+    margin-right: 0;
+}
+.part1 .box i{
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 40px;
+    background: #fff;
+}
+
+.part1 .box i.x{
+    background: #3cadd4;
+}
+.part1 .box i.y{
+    background: #add43c;
+}
+.part1 .box i.z{
+    background: #d43c61;
+}
+.part1 .box h3{
+    margin: 20px 0;
+    color: #858585;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.part1 .box p{
+    color: #858585;
+    font-size: 1.1em;
+    font-weight: 100;
+    padding: 0 30px 20px 30px;
+}
+section.part2{
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+    display: block;
+}
+.part2 h2{
+    font-size: 2.5em;margin-bottom: 20px;
+    color: #474747;
+    font-weight: 900;
+}
+.part2 h2+p{
+    font-size: 1.3em;
+    margin-bottom: 80px;
+    color: #858585;
+}
+.part2 .community{
+    width: 100%;
+    border-top:1px solid #d1d1d1 ;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.part2 .person{
+    flex-basis: 220px;
+    margin: 50px 10px;
+    text-align: left;
+    flex-grow: 1;
+}
+.part2 .person img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+.part2 .person h4{
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+
+}
+.part2 .person p{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.part2 article{
+    margin: 50px auto;
+    width: 70%;
+}
+.part2 article p{
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #444;
+}
+.part2 ul li a{
+    background: #3cadd4;
+    border-radius: 30px;
+    border: 0;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 1em 2em;
+    margin: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    color: #fff;
+
+}
+.part2 ul li a:hover{
+    background: #61c1e1;
+    transition: background-color 0.31s ease-in-out;
+}
+.part3{
+    width: 100%;
+    display: block;
+    background: #3cadd4;
+    padding: 70px 0 10px;
+    text-align: center;
+}
+.part3 h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.part3 h2+p{
+    font-size: 1.4em;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+.part3 .container .form{
+    width: 600px;
+    margin: 70px auto;
+}
+.part3 .container .form input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: #444;
+    font-size: 1em;
+}
+.part3 .container .form input[type=email]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: #444;
+    font-size: 1em;
+}
+.part3 .container .form textarea{
+    width: 430px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: black;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.part3 .container .form input[type=submit]{
+    margin-top: 70px;
+    font-size: 1.1em;
+    padding: 15px 50px;
+    background: #383b43;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.part3 .container .form input[type=submit]:hover{
+    transition: 0.31s background-color ease-in-out;
+    background: #5a5454;
+}
+footer{
+    width: 100%;
+    background: #383b43;
+    padding: 30px 0;
+}
+footer .container{
+    margin-top: 50px;
+    border-bottom: 1px solid #979797;
+}
+
+footer .footerbox{
+    margin-left: 20px;
+    width: 200px;
+}
+footer h3{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+footer .container ul{
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+footer .container ul a{
+    color: #cdced0;
+    text-decoration: none;
+    line-height: 2.5em;
+    font-size: 0.9em;
+}
+footer .container ul a:hover{
+    text-decoration: underline;
+}
+.social{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer .license{
+    width: 100%;
+    margin: 20px auto;
+}
+footer .license p{
+    color: #585858;
+    /*float: left;*/
+    margin-top: 15px;
+    display: inline-block;
+}
+footer .icons{
+    float: right;
+}
+footer .icons i{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.cleaner{clear: both;}
+
+footer .icons i.facebook{
+    background: #39599f;
+}
+footer .icons i.twitter{
+    background: #2daae4;
+
+}
+footer .icons i.linkedin{
+    background: #31516a;
+}
+
+@media screen and (max-width:980px){
+    .banner{
+        height: 60vh;
+    }
+    h2.subtitle{
+        font-size: 1.9em;
+    }
+    .banner .text p{
+        font-size: 1.2em;
+    }
+    .button a{
+        font-size: 0.9em;
+        padding: 10px 25px;
+        border-radius: 15px;
+    }
+    .part1 .box{
+        flex-basis: 100%;
+    }
+    .part2 .person{
+        flex-basis: 40%;
+    }
+    footer .footerbox{
+        flex-basis: 40%;
+        margin: 10px 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .part2 .person{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .part2 .person img{
+        text-align: center;
+        float: none;
+    }
+    footer .footerbox{
+        flex-basis: 100%;
+        margin: 10px 20px;
+        text-align: center;
+    }
+    footer .icons{
+        clear: both;
+        float: none;
+    }
+    footer .license p{
+        float: none;
+        margin: 20px auto;
+    }
+    .social{
+        text-align: center;
+    }
+    footer .icons i{
+        margin-top: 20px;
+    }
+    .part3 .container .form{
+        width: 100%;
+        margin: 70px auto;
+    }
+    .part3 .container .form input[type=text]{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    .part3 .container .form input[type=email]{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    .part3 .container .form textarea{
+        width: 80%;
+        height: 150px;
+    }
+    .part3 .container .form input[type=submit]{
+        font-size: 1.1em;
+        padding: 15px 50px;
+    }
+}
